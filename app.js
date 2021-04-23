@@ -1,6 +1,6 @@
 const filterOutOdds = (...nums) =>  nums.filter(num => num % 2 === 0);
 
-const findMin = (...nums) => nums.reduce((acc, next) => min < next? min : next);
+const findMin = (...nums) => nums.reduce((min, next) => min < next? min : next);
 
 const mergeObjects = (obj1, obj2) => ({...obj1, ...obj2});
 
